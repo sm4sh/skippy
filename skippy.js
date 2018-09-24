@@ -8,7 +8,8 @@
 			|| mutation.addedNodes.length === 0
 			|| mutation.addedNodes[0].className === undefined
 			|| !(mutation.addedNodes[0].className.toString().match(/ptrack-container/)
-				|| mutation.addedNodes[0].className.toString().match(/main-hitzone-element-container/))
+				|| mutation.addedNodes[0].className.toString().match(/main-hitzone-element-container/)
+				|| mutation.addedNodes[0].className.toString().match(/skip-credits/))
 			) {
 				return;
 			}

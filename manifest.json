@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Skippy for Netflix",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "Automatically skip intros and go to the next episode on Netflix",
 
